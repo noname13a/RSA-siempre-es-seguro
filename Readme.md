@@ -26,3 +26,5 @@ $ ./RsaCtfTool-master/RsaCtfTool.py --publickey key.pub --private
 Bingo! Si es capaz de extraer la llave privada, solo hay que guardarla, y probar a descencriptar el mensaje, comprobando que obtenemos la flag:
 
 $ openssl pkeyutl -decrypt -in flag.enc -out flag.txt -inkey key.pem
+
+Los unicos archivos a los cuales se deberan tener acceso ser
