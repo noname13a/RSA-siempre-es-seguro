@@ -1,3 +1,7 @@
+Herramientas:
+RSACtfTool: https://github.com/RsaCtfTool/RsaCtfTool
+rsatool: https://github.com/ius/rsatool
+
 El primer paso para crear un par de llaves RSA vulnerable es ejecutar rsagen.py:
 
 $ python3 rsagen.py
